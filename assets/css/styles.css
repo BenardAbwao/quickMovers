@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-  background-color: cornflowerblue;
+  background-color: black;
   display: flex;
   justify-content:space-between;
 }
