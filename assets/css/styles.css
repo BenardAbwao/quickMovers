@@ -1,7 +1,6 @@
 *{
   padding: 0;
   margin: 0;
-  border: 2px solid royalblue;
 }
 
 body{
@@ -10,76 +9,82 @@ body{
   margin: 0;
 }
 
-nav{
-  background-color: black;
+#sectHeader > .Header > .links > a {
   display: flex;
-  justify-content:space-between;
-  color: white;
+  justify-content: flex-end;
+  position: relative;
+  right: 100;
+  bottom: -60;
 }
-nav > .logo, .thelinks{
-  margin: 15px;
-}
-nav > .logo > h3{
-  font-size: 30px;
-  color: white;
-}
-
-nav > .thelinks > ul > li{
-  display: inline-block;
+  
+#sectHeader > .Header > .links > a{
+  display: inline;
   padding: 10px;
   color: white;
+  align-items: right;
 }
 
-nav > .thelinks > ul > li > .submit{
+nav > .thelinks > ul > li > .login{
   padding: 10px;
-  color: white;
-  background-color: blue;
+  color: black;
+  background-color: yellow;
 }
 
 #sectHeader{
-  opacity: 0.8;
   background-image: url("../images/moving\ 1.png");
-  background-size: cover; 
+  background-size: auto; 
   background-position: center center;
-  height:60vh;
+  height:80vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: left;
+  opacity: 2.0;
+  
 
 }
 #sectHeader > .header{
   text-align: center;
   color: white;
 }
-#sectHeader > .header > h3{
+#sectHeader > .Header > .desc> h1{
   font-size: 50px;
+  color: yellow;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#sectHeader > .Header > .desc> p{
+  font-size: 30px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
-#sectBoutMe{
+#sectMore{
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 
-#sectBoutMe > .boutme{
-  display: flex;
+#sectMore > .footer{
+  display: inline;
+  justify-content: space-between;
 }
 
-#sectBoutMe > .boutme > .leftside, .rightside{
+#sectMore > .footer > .leftside, .rightside{
   width: 50%;
 }
 
-#sectBoutMe > .boutme > .leftside{
+#sectMore > .footer > .leftside{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#sectBoutMe > .boutme > .rightside{
+#sectMore > .footer > .rightside{
   padding-right: 30px;
 }
 
-#sectBoutMe > .boutme > .rightside > button{
+#sectMore > .footer > .rightside > button{
   background-color: cornflowerblue;
   padding: 5px;
   color: white;
@@ -88,4 +93,22 @@ nav > .thelinks > ul > li > .submit{
   background-color: black;
   display: flex;
   color: white;
+  justify-content: space-between;
+}
+#sectMiddle > .middle > h3 {
+  color: black;
+  font-size: large;
+}
+#sectMiddle > .middle > ul >li{
+  display: inline;
+}
+.theLinks {
+  display: inline;
+}
+#sectUpper > .upper > .leftside, .rightside {
+  display: inline;
+}
+img {
+  width: 400px;
+  height: 300px;
 }
