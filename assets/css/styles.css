@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#sectHeader > .Header > .links > a {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 100;
+  bottom: -60;
+}
+  
+#sectHeader > .Header > .links > a{
+  display: inline;
+  padding: 10px;
+  color: white;
+  align-items: right;
+}
+
+nav > .thelinks > ul > li > .login{
+  padding: 10px;
+  color: black;
+  background-color: yellow;
+}
+
+#sectHeader{
+  background-image: url("../images/moving\ 1.png");
+  background-size: auto; 
+  background-position: center center;
+  height:80vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  opacity: 2.0;
+  
+
+}
+#sectHeader > .header{
+  text-align: center;
+  color: white;
+}
+#sectHeader > .Header > .desc> h1{
+  font-size: 50px;
+  color: yellow;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#sectHeader > .Header > .desc> p{
+  font-size: 30px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+#sectMore{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+#sectMore > .footer{
+  display: inline;
+  justify-content: space-between;
+}
+
+#sectMore > .footer > .leftside, .rightside{
+  width: 50%;
+}
+
+#sectMore > .footer > .leftside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectMore > .footer > .rightside{
+  padding-right: 30px;
+}
+
+#sectMore > .footer > .rightside > button{
+  background-color: cornflowerblue;
+  padding: 5px;
+  color: white;
+}
+#sectMore {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+#sectMiddle > .middle > h3 {
+  color: black;
+  font-size: large;
+}
+#sectMiddle > .middle > ul >li{
+  display: inline;
+}
+.theLinks {
+  display: inline;
+}
+#sectUpper > .upper > .leftside, .rightside {
+  display: inline;
+}
+img {
+  width: 400px;
+  height: 300px;
+}
