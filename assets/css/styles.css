@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   padding: 0;
   box-sizing: border-box;
   margin: 0;
@@ -48,7 +48,7 @@
   margin-top: 90px;
   color: #FAFF00;
   font-size: 40px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 .sectHeader > .desc > p{
   font-weight: 300px;
@@ -56,7 +56,7 @@
   font-size: 25px;
   margin-left: 90px;
   margin-top: 40px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .sectInspire {
@@ -77,7 +77,7 @@
   font-family: 'Poppins';
 }
 .sectInspire > .inspire >p{
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 100px;
   font-size: 20px;
   margin-bottom: 45px;
@@ -85,7 +85,7 @@
 .sectInspire > .inspire >button {
   color: #FAFF00;
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 90px;
   padding: 15px;
   background-color: black;
@@ -111,7 +111,7 @@
   margin-bottom: 90px;
   font-size: 45px;
   margin-left: 90px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 .sectMiddle > .middle > .middle2 {
   width: 115px;
@@ -205,7 +205,7 @@ movers section
   margin: 30px;
   font-size: 15px;
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 90px;
   
 
@@ -270,7 +270,7 @@ movers section
   color: white;
   padding: 20px;
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   border-top-right-radius: 20px;
   margin-top: 420px;
   margin-left: 10px;
@@ -373,7 +373,7 @@ padding: 20px;
   color: black;
   padding-top: 30px;
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -460,7 +460,7 @@ transform: rotate(40deg);
   margin-left: 90px;
   margin-bottom: 90px;
   font-weight: 180;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   margin-top: 15px;
   
   }  
@@ -557,7 +557,7 @@ width:auto;
  padding-top: 45px;
 }
 
-.footer >.footer-content > h2 > span{
+.footer >.footer-content > h1 > span{
  color: #FAFF00;
  margin-left: 35px;
 }
@@ -569,7 +569,7 @@ width:auto;
   margin-top: 60px;
   margin-right: 250px;
   font-size: 15px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 90;
   content: "\2192";
  
@@ -642,7 +642,7 @@ input[type=text], select, textarea {
   background-color: black;
   color: #FAFF00;
   font-size: 18px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   margin-top: 20px;
   
