@@ -371,7 +371,7 @@ padding: 20px;
 }
 .MoreInfo > p{
   color: black;
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
 }
@@ -584,7 +584,7 @@ width:auto;
   
  
 }
-.footer > .media > .awe-icons a{
+.footer > .media > .awe-icons >a{
   display: inline-block;
   padding: 20px;
   color: white;
@@ -595,12 +595,12 @@ width:auto;
   display: flex;
 
 }
-.footer > .media> .title {
+.footer > .media> .heading {
   margin-left: 300px;
   
 
 }
-.footer > .media> .title h2{
+.footer > .media> .heading h2{
   font-size: 15px;
   color: white;
   padding-bottom: 10px;
@@ -608,7 +608,7 @@ width:auto;
   
 
 }
-.footer > .media> .title li{
+.footer > .media> .heading >ul >li{
   font-size: 15px;
   color: white;
 
