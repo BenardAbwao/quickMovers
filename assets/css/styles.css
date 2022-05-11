@@ -454,6 +454,9 @@ transform: rotate(40deg);
   margin-left: 90px;
   
 }
+.formsect {
+  display: inline-block;
+}
 
 .form-sect4 > .transport > h2{
     font-size: 50px;
@@ -476,7 +479,7 @@ transform: rotate(40deg);
   }
 
 .form-sect5{
-  display: grid;
+  display: inline-block;
   grid-template-columns: 250px;
   grid-template-rows: 300px 70px 50px;
   grid-template-areas: "image" "text" "stats";
