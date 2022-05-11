@@ -230,11 +230,16 @@ movers section
 .content{
   background-color:lightgrey;
 
+
 }
 .content .imgs{
   display: flex;
   height: auto;
 
+}
+.imgs > .img {
+  height: 1000px;
+  width: 1000px;
 }
 .info{
   display: flex;
@@ -247,8 +252,8 @@ movers section
   color: white;
 }
 .content > .imgs > .img > img{
-  height: 500px;
-  width: 700px;
+  height: 100px;
+  width: 100px;
   margin-top: 50px;
   margin-left: 100px;
 }
@@ -404,7 +409,7 @@ position: relative;
 
 
 ul.column li:before {
-content: " "; 
+
 display: block;
 border: solid 0.8em orange;
 border-radius: 0.7em;
@@ -639,7 +644,6 @@ input[type=text], select, textarea {
   font-size: 18px;
   font-family: 'Poppins';
   font-weight: 100;
-  content: "\2192";
   margin-top: 20px;
   
 }
